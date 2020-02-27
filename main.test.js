@@ -1,13 +1,72 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const addAll = function(arr){
+  let result = 0 
 
+  for (const item of arr){
+    //console.log(addAll)
+    result += item
+  }
+  return result
+}
 
+const countSpaces = function(arr){
+  let outcome = 0
 
+  for (const item of arr){
+    //console.log()
+    if(item === ' '){
+      outcome++
+    }
+  }
+  return outcome
+}
 
+const countTrues = function(arr){
+  let outcome = 0
 
+  for (const item of arr){
+    //console.log()
+    if (item === true){
+      outcome++
+    }
 
+  }
+  return outcome
+}
 
+const makeFriendly = function(arr){
+  let outcome = ''
+
+  for (const item of arr){
+    //console.log()
+    //if (item === '!')
+    {
+    outcome += item.replace('.','!' )
+    }
+  }
+  return outcome
+}
+
+const cubeAll = function(arr){
+  let outcome = 0
+
+  for (const item of arr){
+    //console.log()
+    outcome = item * item * item
+  }
+  return outcome
+}
+
+const addNoises = function(arr){
+  let outcome = ''
+
+  for (const item of arr){
+    //console.log()
+  }
+  return outcome
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
