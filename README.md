@@ -36,9 +36,3 @@ You COULD use a `for` loop, but don't waste yo own time!
 * `cubeAll` - given an array of numbers, returns an array where each number has been cubed (a.k.a. raised to the third power).
 * `makeFriendly` - given an array of paragraphs, returns an array where, for each paragraph, every second sentence ends with an exclamation point instead of the punctuation mark it held before.
 * `addNoises` - given an array of strings, returns an array where each string has appended to it that animal's noise. See tests for examples!
-
-
-##### Filters
-
-* `removeTrolls` - given an array of strings, returns an array where any string in the original that was exclusively in upper case has been removed.
-* `onlyDoggos` - given an array of strings, returns an array where any string in the original that didn't represent a dog's name has been removed (same rules as `addNoises, see examples from either).
