@@ -2,9 +2,15 @@
 
 ### Introduction
 
-This will be an exercise in using function expressions and `for of` loops. Most times you'll iterate through an array you won't need the index you're currently on--including each of the challenges below.
+This will be an exercise in using function expressions and `for of` loops.
 
-You COULD use a `for` loop, but don't waste yo own time!
+Most times you iterate through an array, you don't need the index you're currently on, so `for of` loops are the simpler and nicer-looking choice.
+
+And every function should be declared with a function expression, because it keeps our functions from being reassigned, preventing many a potential bug.
+
+Together, they make a dynamic duo, serving up simpler and safer syntax for solution-slingers!
+
+That one got away from me. Sorry.
 
 
 ### Setup
@@ -12,8 +18,8 @@ You COULD use a `for` loop, but don't waste yo own time!
 1. Fork and clone.
 2. Navigate into the directory.
 3. `npm install` and `npm test`.
-4. Code away in `main.js`.
-5. Read the `main.test.js` for function usage examples!
+4. Code away in `main.test.js`, NOT `main.js`. (There isn't one for annoying technical test-related reasons.)
+5. Read the tests further down in `main.test.js` for function usage examples!
 
 
 ### Guidelines
@@ -29,10 +35,10 @@ You COULD use a `for` loop, but don't waste yo own time!
 * `addAll` - given an array of numbers, returns the sum of all numbers added together.
 * `countSpaces` - given a string, returns the number of characters that are spaces.
 * `countTrues` - given an array of booleans, returns the number of `true` values.
+* `makeFriendly` - given a paragraph, returns a paragraph where each sentence ends with an exclamation point instead of the period it held before.
 
 
 ##### Maps
 
 * `cubeAll` - given an array of numbers, returns an array where each number has been cubed (a.k.a. raised to the third power).
-* `makeFriendly` - given an array of paragraphs, returns an array where, for each paragraph, every second sentence ends with an exclamation point instead of the punctuation mark it held before.
 * `addNoises` - given an array of strings, returns an array where each string has appended to it that animal's noise. See tests for examples!
